@@ -28,8 +28,40 @@ spring:
       connection-test-query: SELECT 1
 
   ai:
+    mcp:
+      client:
+        request-timeout: 360s
+        stdio:
+          servers-configuration: classpath:/config/mcp-servers-config.json
+    # 注意：qianfan starter 是为百度千帆设计的，不适用于阿里云通义千问
+    # 如需使用阿里云通义千问，请使用下面的 openai 兼容接口配置
+    qianfan:
+      # 禁用百度千帆自动配置（如果不需要使用百度千帆）
+      enabled: false
+      api-key: ""
+      secret-key: ""
+
+    # OpenAI 兼容接口配置（可用于阿里云通义千问）
+    openai:
+      # 阿里云通义千问 OpenAI 兼容接口地址
+      # 注意：base-url 不应该包含 /v1，因为 Spring AI 会自动添加 /v1/chat/completions
+      # 国内：https://dashscope.aliyuncs.com/compatible-mode
+      # 国际：https://dashscope-intl.aliyuncs.com/compatible-mode
+      base-url: https://dashscope.aliyuncs.com/compatible-mode
+      # 阿里云通义千问 API Key（从 DashScope 控制台获取，不是 RAM AccessKey）
+      # 获取方式：登录 https://dashscope.console.aliyun.com/ > API-KEY 管理 > 创建 API-KEY
+      # 注意：这里需要的是 DashScope API Key，不是 RAM AccessKey ID/Secret
+      api-key: ${DASHSCOPE_API_KEY:sk-b98311dd0ceb4f7ba6a8063d23c90569}
+      chat:
+        options:
+          model: qwen3-max  # 可选：qwen-plus, qwen-turbo, qwen-max 等
+      embedding-model: text-embedding-ada-002
+      embedding:
+        options:
+          num-batch: 1536
     ollama:
-      base-url: http://localhost:11434
+      #base-url: http://localhost:11434
+      base-url: http://53792582b5c140908145-deepseek-r1-llm-api.gcs-xy1a.jdcloud.com/
       embedding:
         options:
           num-batch: 512

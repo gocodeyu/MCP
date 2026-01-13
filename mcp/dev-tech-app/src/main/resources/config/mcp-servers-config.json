@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "D:\\nodejsv24.23.0\\npx.cmd"
+    ,
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem@2025.3.28",
+        "D:\\AI_Work",
+        "D:\\25年情感分析文章"
+      ]
+    }
+  }
+}
