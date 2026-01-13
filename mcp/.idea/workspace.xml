@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="397a568b-909e-400a-a126-a02199abbdcf" name="Changes" comment="feat:rag-api-git" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dockerfile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="chy-rag-api-git" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/dev-tech-app/cloned-repo" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="D:\apache-maven-3.9.11" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.9.11\conf\settings-spring-ai-0.8.1.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="37ydVo35m4pXX2XotkW50awCPVS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+    <option name="sortKey" value="BY_TYPE" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.JGitTest.test.executor": "Run",
+    "JUnit.JGitTest.test_file.executor": "Run",
+    "JUnit.RAGTest.chat.executor": "Run",
+    "JUnit.RAGTest.upload.executor": "Run",
+    "Maven.rag-knowledge [clean].executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.Application.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/WorkspaceforIdea/MCP",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/WorkspaceforIdea/RAG/rag-knowledge/dev-tech-trigger/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "redis",
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WorkspaceforIdea\RAG\rag-knowledge\dev-tech-app\src\test\resources" />
+      <recent name="D:\WorkspaceforIdea\RAG\rag-knowledge\dev-tech-trigger\src\main\java\org\example" />
+      <recent name="D:\WorkspaceforIdea\RAG\rag-knowledge\dev-tech-app\src\main\java\org\example" />
+      <recent name="D:\WorkspaceforIdea\RAG\rag-knowledge\dev-tech-api\src\main\java\org\example" />
+      <recent name="D:\WorkspaceforIdea\RAG\rag-knowledge\dev-tech-app\src\main\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.RAGTest.chat">
+    <configuration name="JGitTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dev-tech-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.dev.tech.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.dev.tech.test" />
+      <option name="MAIN_CLASS_NAME" value="org.example.dev.tech.test.JGitTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JGitTest.test_file" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dev-tech-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.dev.tech.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.dev.tech.test" />
+      <option name="MAIN_CLASS_NAME" value="org.example.dev.tech.test.JGitTest" />
+      <option name="METHOD_NAME" value="test_file" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RAGTest.chat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dev-tech-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.dev.tech.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.dev.tech.test" />
+      <option name="MAIN_CLASS_NAME" value="org.example.dev.tech.test.RAGTest" />
+      <option name="METHOD_NAME" value="chat" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RAGTest.upload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dev-tech-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.dev.tech.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.dev.tech.test" />
+      <option name="MAIN_CLASS_NAME" value="org.example.dev.tech.test.RAGTest" />
+      <option name="METHOD_NAME" value="upload" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="dev-tech-app" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.dev.tech.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RAGTest.chat" />
+        <item itemvalue="JUnit.RAGTest.upload" />
+        <item itemvalue="JUnit.JGitTest.test_file" />
+        <item itemvalue="JUnit.JGitTest.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.419" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.419" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Lenovo\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="397a568b-909e-400a-a126-a02199abbdcf" name="Changes" comment="" />
+      <created>1767879273748</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1767879273748</updated>
+      <workItem from="1767879274868" duration="4102000" />
+      <workItem from="1767918986229" duration="775000" />
+      <workItem from="1767919781470" duration="5894000" />
+      <workItem from="1767958321689" duration="3290000" />
+      <workItem from="1767961645065" duration="6312000" />
+      <workItem from="1768121674573" duration="13740000" />
+      <workItem from="1768216666270" duration="4249000" />
+      <workItem from="1768287703700" duration="13290000" />
+      <workItem from="1768307189441" duration="308000" />
+      <workItem from="1768307584604" duration="137000" />
+      <workItem from="1768307730438" duration="57000" />
+      <workItem from="1768307841078" duration="17000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat:第2节init project">
+      <option name="closed" value="true" />
+      <created>1767880711133</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1767880711134</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat:第2节init project">
+      <option name="closed" value="true" />
+      <created>1767959569651</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1767959569651</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat:stream-api">
+      <option name="closed" value="true" />
+      <created>1767967436692</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1767967436692</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat:rag">
+      <option name="closed" value="true" />
+      <created>1768127192239</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1768127192239</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat:rag-api">
+      <option name="closed" value="true" />
+      <created>1768134013054</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1768134013054</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat:rag-api-git">
+      <option name="closed" value="true" />
+      <created>1768139312316</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1768139312316</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/dev-tech-app/cloned-repo" />
+    </ignored-roots>
+    <MESSAGE value="feat:第2节init project" />
+    <MESSAGE value="feat:stream-api" />
+    <MESSAGE value="feat:rag" />
+    <MESSAGE value="feat:rag-api" />
+    <MESSAGE value="feat:rag-api-git" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:rag-api-git" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
