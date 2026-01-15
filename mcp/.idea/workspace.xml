@@ -4,39 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="126b8b10-7a36-49d3-8668-8dd22d622634" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-tech-app/src/main/java/org/example/dev/tech/config/OpenAIConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-tech-app/src/main/resources/config/mcp-servers-config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-tech-app/src/test/java/org/example/dev/tech/test/MCPTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev-tech-app/src/test/java/org/example/dev/tech/test/OllamaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev-tech-api/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev-tech-api/src/main/java/org/example/dev/tech/api/IAiService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev-tech-api/src/main/java/org/example/dev/tech/api/IRAGService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev-tech-api/src/main/java/org/example/dev/tech/api/response/Response.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev-tech-app/data/log/log_error.log" beforeDir="false" afterPath="$PROJECT_DIR$/dev-tech-app/data/log/log_error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev-tech-app/data/log/log_info.log" beforeDir="false" afterPath="$PROJECT_DIR$/dev-tech-app/data/log/log_info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev-tech-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dev-tech-app/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev-tech-app/src/main/java/org/example/dev/tech/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/dev-tech-app/src/main/java/org/example/dev/tech/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev-tech-app/src/main/java/org/example/dev/tech/config/OllamaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/dev-tech-app/src/main/java/org/example/dev/tech/config/OllamaConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev-tech-app/src/main/java/org/example/dev/tech/config/RedisClientConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev-tech-app/src/main/java/org/example/dev/tech/config/RedisClientConfigProperties.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev-tech-app/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dev-tech-app/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev-tech-app/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dev-tech-app/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev-tech-app/src/test/java/org/example/dev/tech/test/JGitTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev-tech-app/src/test/java/org/example/dev/tech/test/RAGTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev-tech-trigger/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dev-tech-trigger/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev-tech-trigger/src/main/java/org/example/dev/tech/trigger/http/OllamaController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev-tech-trigger/src/main/java/org/example/dev/tech/trigger/http/RAGController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/dev-ops/pgvector/sql/init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/docs/dev-ops/pgvector/sql/init.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="126b8b10-7a36-49d3-8668-8dd22d622634" name="Changes" comment="chy-openai模型引入-mcp脚本测试通过" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +19,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -202,8 +175,25 @@
       <workItem from="1768392670075" duration="4396000" />
       <workItem from="1768397264691" duration="3074000" />
       <workItem from="1768441197733" duration="8336000" />
-      <workItem from="1768461817186" duration="1607000" />
+      <workItem from="1768461817186" duration="2047000" />
     </task>
+    <task id="LOCAL-00001" summary="chy-init-projecct">
+      <option name="closed" value="true" />
+      <created>1768463651308</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1768463651308</updated>
+    </task>
+    <task id="LOCAL-00002" summary="chy-openai模型引入-mcp脚本测试通过">
+      <option name="closed" value="true" />
+      <created>1768463826582</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1768463826582</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,5 +209,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="chy-init-projecct" />
+    <MESSAGE value="chy-openai模型引入-mcp脚本测试通过" />
+    <option name="LAST_COMMIT_MESSAGE" value="chy-openai模型引入-mcp脚本测试通过" />
   </component>
 </project>
